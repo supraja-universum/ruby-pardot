@@ -14,12 +14,13 @@ module Pardot
     include Objects::ListMemberships
     include Objects::Opportunities
     include Objects::Prospects
-    include Objects::Campaigns
     include Objects::ProspectAccounts
     include Objects::Users
     include Objects::Visitors
     include Objects::Visits
     include Objects::VisitorActivities
+    include Objects::Campaigns
+    include Objects::Forms
 
     attr_accessor :email, :password, :user_key, :api_key, :version, :format
 
